@@ -1,0 +1,297 @@
+/* 1st Create a mile block */
+
+.part_name a>span {
+    color: #E32636;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.create__mile {
+    width: auto;
+    max-width: 1024px;
+    padding: 20px;
+    background: #2D2D2D;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1024px;
+}
+
+.create__mile__image {
+    display: flex;
+    flex: 0 0;
+    margin-bottom: 10px;
+}
+
+.create__mile__choosePhoto {
+    width: 240px;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.create__mile__choosePhoto:hover {
+    border: 2px solid #E32636;
+    transition: 0.5s;
+}
+
+.topic_img {
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.topic__image {
+    width: 50px;
+}
+
+.user__mile__img img {
+    width: 100%;
+    display: none;
+}
+
+.create__mile__rightbox {
+    margin-left: 25px;
+}
+
+.create__mile__title:after {
+    content: '40';
+    color: #2D2D2D;
+    font-size: 14px;
+    margin-left: -30px;
+}
+
+.mile__title {}
+
+.input__block {
+    width: 240px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.create__mile__description {
+    margin-top: 25px;
+}
+
+.create__mile__tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.create__mile__tags div {
+    margin: 10px 25px 10px 0;
+}
+
+.create__mile__category {}
+
+.mile__category {}
+
+.create__mile__language {}
+
+.mile__lang {}
+
+.create__mile__level {}
+
+.mile__level {}
+
+.create__mile__tag {}
+
+.mile__tag {}
+
+.create__mile__btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create__btn {
+    width: 120px;
+    padding: 8px 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.create {
+    border: 2px solid #E32636;
+}
+
+.create:hover {
+    transition: 0.3s;
+    background-color: #E32636;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cancel {
+    border: 2px solid #fff;
+}
+
+.cancel:hover {
+    transition: 0.3s;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+.widgContainer {
+    width: 680px;
+}
+
+.widgEditor {
+    background: #fff;
+}
+
+
+/* END Create a mile block */
+
+
+/* 2nd Create a mile block */
+
+.create__mile__second .user__mile__img img {
+    display: block;
+}
+
+.create__mile__image .create__mile__bodyText {
+    width: 600px;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.create__mile__image .create__mile__bodyText span {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.create__mile__2__add {
+    width: auto;
+    max-width: 990px;
+    padding: 20px;
+    background: #2D2D2D;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 990px;
+}
+
+.create__mile__2 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.create__mile__2__addingBtn img {
+    width: 40px;
+    height: 40px;
+}
+
+.create__mile__2__addingBtn {
+    width: 32%;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    padding: 10px 0;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.create__mile__2__addingBtn p {
+    margin: 8px 0 0 10px;
+}
+
+.create__mile__2__addingBtn:hover {
+    transition: 0.3s;
+    border: 2px solid#E32636;
+    text-decoration: none;
+}
+
+.create__mile__2__add .create {
+    opacity: 0.5;
+}
+
+
+/* 3rd THEORY Create a mile block */
+
+.create__mile_theory {
+    width: auto;
+    max-width: 990px;
+    padding: 20px;
+    background: #2D2D2D;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 990px;
+}
+
+.create__mile_theory .widgContainer {
+    width: auto;
+}
+
+.create__mile_theory .widgIframe {
+    height: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+    .widgContainer {
+        max-width: 660px;
+    }
+    .create__mile__choosePhoto {
+        width: 100%;
+        height: 100%;
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .input__block {
+        width: 200px;
+        font-size: 16px;
+    }
+    .create__mile__tags {
+        flex-wrap: nowrap;
+    }
+    .create__mile__2__addingBtn {
+        padding: 5px 0;
+        font-size: 15px;
+    }
+    .create__mile_theory .widgContainer {
+        width: 100%;
+        max-width: 880px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .widgContainer {
+        max-width: 440px;
+    }
+    .content h2 {
+        font-size: 1.2em;
+    }
+    .create__mile__tags {
+        flex-wrap: wrap;
+    }
+    .create__mile__choosePhoto {
+        width: 100%;
+        height: 100%;
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .create__mile__image .create__mile__bodyText {
+        width: 100%;
+        max-width: 600px;
+    }
+}

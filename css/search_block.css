@@ -1,0 +1,80 @@
+/* Search block styles */
+
+.btn-secondary {
+    border-radius: 8px;
+    width: 120px;
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+
+.btn-secondary:hover {
+    border-radius: 8px;
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+
+h5.results_tag {
+    padding-left: 20px;
+    color: #848484;
+    font-size: 18px;
+}
+
+.search_topics .topic {
+    padding-bottom: 0;
+}
+
+.show_more a.red_borders {
+    margin: 20px 0;
+    color: #E32636;
+    padding: 11px 0;
+    text-align: center;
+}
+
+.show_more a.red_borders:hover {
+    color: #fff;
+}
+
+.search_topics .show_more a {
+    width: 100%;
+    max-width: 1024px;
+    padding: 8px 0;
+}
+
+.search_topics .row {
+    margin: 40px 0;
+}
+
+.sci {
+    color: #fff;
+    margin-left: 38px;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sci li>a:hover {
+    transition: 0.3s;
+    color: #E32636;
+}
+
+.sci h2 {
+    margin-bottom: 35px;
+}
+
+.sci .show_more {
+    padding: 10px 0 25px 0;
+    color: #E32636;
+    text-decoration: none;
+}
+
+.navi ul {
+    margin-bottom: 40px;
+}

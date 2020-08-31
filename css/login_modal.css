@@ -1,0 +1,78 @@
+/* STYLES FOR MODAL LOGIN */
+
+.modal-content {
+    margin-top: 150px;
+    background: #2D2D2D;
+    border-radius: 8px;
+    padding: 40px;
+    color: #fff;
+    display: flex;
+}
+
+.modal-content .row {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.modal-content .row h4 {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.modal-content .row h2 {
+    text-align: left;
+}
+
+.modal-content .search_elements {
+    height: auto;
+}
+
+.modal-content .search {
+    height: 40px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.forgot_line {
+    width: 100%;
+    margin: 10px 0 25px 0;
+    padding: 0;
+    justify-content: space-between;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    color: #E32636;
+}
+
+.forgot_line a {
+    color: #E32636;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.modal-content a.login_but {
+    margin: 20px 0;
+}
+
+.modal-content .socials {
+    margin-top: 20px;
+}
+
+.modal-content .socials a {
+    opacity: 0.7;
+}
+
+.modal-content .socials a:hover {
+    opacity: 1;
+}
+
+.form-check-input {
+    position: static;
+    margin: 0;
+}
+
+
+/* END OF MODAL FOR LOGIN */

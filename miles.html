@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/run.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <script src="./js/script.js"></script>
+    <title>MilesRun</title>
+</head>
+
+<body>
+    <section class="banner">
+        <header>
+            <a href="miles.html" class="logo">MilesRun</a>
+            <div class="header__navi">
+                <div class="left_navi">
+                    <a href="#" class="logo_bar">categories</a>
+                    <a href="#" class="logo_bar">tests</a>
+                    <a href="miles-createMile-1.html" class="logo_bar red_borders">create a mile</a>
+                </div>
+                <div class="right_navi">
+                    <div class="search_box">
+                        <table class="search_elements">
+                            <tr>
+                                <td>
+                                    <a href="#"><i class="material-icons">search</i></a>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="Seach for anything" class="search" name="" id="search_input">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="user">
+                        <div class="user__nav">
+                            <a id="user__cllck" onclick="myFunction()">
+                                <div class="user__photo">
+                                    <img src="./img/topic3.png" alt="Admin">
+                                </div>
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+
+                            <div id="myDropdown" class="dropdown">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                                    <li><a href="#"><i class="fas fa-sliders-h"></i> Settings</a></li>
+                                    <li><a href="miles-login.html"><i class="fas fa-sign-out-alt"></i> Signout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="burger">
+                <div class="burger__but"></div>
+            </div>
+        </header>
+        <header class="recent_categ">
+            <div class="left_navi_2">
+                <a href="#" class="menu_list">development</a>
+                <a href="#" class="menu_list">business</a>
+                <a href="#" class="menu_list">programming</a>
+                <a href="#" class="menu_list">languages</a>
+                <a href="#" class="menu_list">design</a>
+                <a href="#" class="menu_list">science</a>
+                <a href="#" class="menu_list">statistics</a>
+                <a href="#" class="menu_list">analysis</a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="part_name">
+                <h2>recommended</h2>
+            </div>
+
+            <div id="slider">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <input type="radio" name="slider" id="slide4">
+                <div id="slides">
+                    <div id="overflow">
+                        <div class="inner">
+                            <div class="slide slide_1">
+                                <div class="slide-content">
+                                    <h2>Making abstractions <br> in Adobe XD</h2>
+                                    <div class="run_but">
+                                        <a href="#" class="logo_bar red_borders">RUN</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide slide_2">
+                                <div class="slide-content">
+                                    <h2>Making abstractions <br> in Adobe XD</h2>
+                                    <div class="run_but">
+                                        <a href="#" class="logo_bar red_borders">RUN</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide slide_3">
+                                <div class="slide-content">
+                                    <h2>Making abstractions <br> in Adobe XD</h2>
+                                    <div class="run_but">
+                                        <a href="#" class="logo_bar red_borders">RUN</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide slide_4">
+                                <div class="slide-content">
+                                    <h2>Making abstractions <br> in Adobe XD</h2>
+                                    <div class="run_but">
+                                        <a href="#" class="logo_bar red_borders">RUN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="controls">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                    <label for="slide4"></label>
+                </div>
+                <div id="bullets">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                    <label for="slide4"></label>
+                </div>
+            </div>
+
+            <div class="part_name">
+                <h2>recently run</h2>
+                <a href=""><img class="menu_inverse" src="https://img.icons8.com/ios-filled/28/000000/squared-menu.png" /></a>
+            </div>
+            <div class="topic">
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic1.png" alt="">
+                        <div class="run_but mile_run">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>Making Illustrations</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png" /></a>
+                    </div>
+                    <p>Graphic Design <br> <span>Slava Yugay | 5 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic2.png" alt="">
+                        <div class="run_but mile_run">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>Java Classes</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png" /></a>
+                    </div>
+                    <p>Programming <br> <span>Saydillo | 20 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic3.png" alt="">
+                        <div class="run_but mile_run">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+
+                    <div class="topic_names">
+                        <h4>Linear Regression</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png" /></a>
+                    </div>
+                    <p>Programming <br> <span>Saydillo | 20 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic4.png" alt="">
+                        <div class="run_but mile_run">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>How to Brainstorm?</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png" /></a>
+                    </div>
+                    <p>Brain Skills <br> <span>Dlyaver | 35 miles</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="part_name">
+                <h2>popular</h2>
+                <a href=""><img class="menu_inverse" src="https://img.icons8.com/ios-filled/28/000000/squared-menu.png" /></a>
+            </div>
+            <div class="topic">
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic5.png" alt="">
+                        <div class="run_but mile_run">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>How cells are structured?</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png" /></a>
+                    </div>
+                    <p>Science - Biology <br> <span>Sarvar Suyarov | 64 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic6.png" alt="">
+                        <div class="run_but mile_run">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>Verbs in Russian Language</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png" /></a>
+                    </div>
+                    <p>Languages<br> <span>Lozesaint | 54 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic7.png" alt="">
+                        <div class="run_but mile_run">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+
+                    <div class="topic_names">
+                        <h4>Adaptive HTML</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png" /></a>
+                    </div>
+                    <p>Web Development<br> <span>Sarvar Suyarov | 64 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic8.png" alt="">
+                        <div class="run_but mile_run">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>PostgreSQL Connection</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png" /></a>
+                    </div>
+                    <p>Databases<br> <span>Dlyaver | 35 miles</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="create_mile_banner">
+                <div class="proceed_mile">
+                    <h2>Create your own Mile!</h2>
+                    <p>Improve knowledge of others <br> and get profit</p>
+                    <div class="search_box">
+                        <table class="search_elements">
+                            <tr>
+                                <td>
+                                    <input type="text" placeholder="Name of the Mile" class="search" name="" id="">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <a href="#" class="logo_bar red_borders">Proceed</a>
+                </div>
+                <img src="img/wing1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="footer_panel">
+            <a href="#" class="logo_bar">© 2020 Milesrun</a>
+            <a href="#" class="logo_bar menu_list">About</a>
+            <a href="#" class="logo_bar menu_list">Blog</a>
+            <a href="#" class="logo_bar menu_list">Privicy</a>
+            <a href="#" class="logo_bar menu_list">Terms</a>
+            <a href="#" class="logo_bar menu_list">Contact</a>
+        </div>
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
